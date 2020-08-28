@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Contact List App</title>
+        <link rel="shortcut icon" href="favicon.ico" type="favicon/ico" />
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>Contact List App</h1><br>
+        <table class="table">
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Action</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+
+            </thead>
+            <thead>
+                    <td><input type="text" name="name" class="form-control" id="name"></td>
+                    <td><input type="email" name="email" class="form-control" id="email"></td>
+                    <td><input type="tel" name="phone" class="form-control" id="phone"></td>
+                    <td><button class="btn-add" id="add">Add</button></td>
+                     <td><button class="btn-update" id="update">Update</button></td>
+                      <td><button class="btn-clear" id="clear">Clear</button></td>
+            </thead>
+            <tbody id="tdata">
+                
+                <!-- <tr id="tdata"> -->
+                    <!-- <td>miran</td>
+                    <td>honeyfuf12@gmail.com</td>
+                    <td>0979025863</td>
+                    <td><button class="btn-update">Edit</button></td>
+                     <td><button class="btn-delete">Delete</button></td> -->
+                     
+                <!-- </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h5 id="more">Click to view more</h5>
+        <p id="detail"> name:Hena <br>
+            email:honeyfuf12@gmail.com
+        </p>
+
+    </div>
+
+    <script src="bootstrap-4.4.1-dist/js/jquery-3.5.0.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="controller/controller.js"></script>
+    </body>
+</html>

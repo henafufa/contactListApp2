@@ -1,0 +1,32 @@
+{
+  "name": "contactlistapp",
+  "version": "1.0.0",
+  "description": "It is an app for managing contact list with view, add, edit, delete and search functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henafufa/contactListApp2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "ajax",
+    "bootstrap",
+    "with",
+    "jquery",
+    "library"
+  ],
+  "author": "Hena Fufa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henafufa/contactListApp2/issues"
+  },
+  "homepage": "https://github.com/henafufa/contactListApp2#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "path": "^0.12.7"
+  }
+}
